@@ -1,0 +1,26 @@
+{
+  "name": "nodejsa-apiclient",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" :"./node_modules/.bin/babel-node ./src/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v-yafeili/nodejsa-apiclient.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/v-yafeili/nodejsa-apiclient/issues"
+  },
+  "homepage": "https://github.com/v-yafeili/nodejsa-apiclient#readme",
+  "dependencies": {
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0"
+  }
+}
